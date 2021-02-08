@@ -21,5 +21,10 @@ namespace Color_Picker
         {
             System.Diagnostics.Process.Start("https://github.com/Nasus20202/Color-Picker");
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/Nasus20202/Color-Picker");
+        }
     }
 }

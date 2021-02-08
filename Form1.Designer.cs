@@ -49,6 +49,7 @@ namespace Color_Picker
             this.button1 = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.generujToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.generujRosnącąToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -78,7 +79,6 @@ namespace Color_Picker
             this.r10 = new System.Windows.Forms.TextBox();
             this.dom10 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.generujRosnącąToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dom1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dom2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dom3)).BeginInit();
@@ -249,6 +249,13 @@ namespace Color_Picker
             this.generujToolStripMenuItem.Text = "Generuj losową";
             this.generujToolStripMenuItem.Click += new System.EventHandler(this.button1_Click);
             // 
+            // generujRosnącąToolStripMenuItem
+            // 
+            this.generujRosnącąToolStripMenuItem.Name = "generujRosnącąToolStripMenuItem";
+            this.generujRosnącąToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.generujRosnącąToolStripMenuItem.Text = "Generuj rosnącą";
+            this.generujRosnącąToolStripMenuItem.Click += new System.EventHandler(this.button3_Click);
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -284,9 +291,9 @@ namespace Color_Picker
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(531, 372);
+            this.button2.Location = new System.Drawing.Point(529, 370);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 23);
+            this.button2.Size = new System.Drawing.Size(121, 23);
             this.button2.TabIndex = 32;
             this.button2.Text = "Info";
             this.button2.UseVisualStyleBackColor = true;
@@ -500,19 +507,12 @@ namespace Color_Picker
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // generujRosnącąToolStripMenuItem
-            // 
-            this.generujRosnącąToolStripMenuItem.Name = "generujRosnącąToolStripMenuItem";
-            this.generujRosnącąToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
-            this.generujRosnącąToolStripMenuItem.Text = "Generuj rosnącą";
-            this.generujRosnącąToolStripMenuItem.Click += new System.EventHandler(this.button3_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(675, 405);
+            this.ClientSize = new System.Drawing.Size(671, 398);
             this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.button3);
             this.Controls.Add(this.b10);

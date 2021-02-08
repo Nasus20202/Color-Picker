@@ -22,7 +22,7 @@ namespace Color_Picker
         public Form1()
         {
             InitializeComponent();
-            colors();
+            colorsRising();
         }
 
         private void button1_Click(object sender, EventArgs e)
